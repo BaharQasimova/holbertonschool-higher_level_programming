@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 str1 = "object-oriented programming"
 str2 = "Python"
-print(str1, "with", str2)
+str3 = "with"
+print(str1, str3, str2)
