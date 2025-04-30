@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-number = 98
-print(f"{number} Battery street")
+for letter in range(97, 123):
+    if chr(letter) not in ['e', 'q']:
+        print("{}".format(chr(letter)), end="")
