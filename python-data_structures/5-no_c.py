@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-def print_matrix_integer(matrix=[[]]):
-    for row in matrix:
-        print(" ".join("{:d}".format(num) for num in row))
+def no_c(my_string):
+    new_string = ""
+    for char in my_string:
+        if char != 'c' and char != 'C':
+            new_string += char
+    return new_string
