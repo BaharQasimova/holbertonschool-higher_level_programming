@@ -51,32 +51,32 @@ class Library:
         print(f" '{title}' kitab kitabxanada tapilmadi.")
         
     def main():
-       library = Library("Ağıllı Kitabxana")
+       library = Library("Ağilli Kitabxana")
     
     while True:
-        print("\nAğıllı Kitabxanaya xoş gelmisiz.")
+        print("\nAğilli Kitabxanaya xoş gelmisiz.")
         print("1. Kitab elave et.")
-        print("2. Kitabları goster.")
+        print("2. Kitablari goster.")
         print("3. Kitab kiraye gotur.")
-        print("4. Kitabı qaytar.")
-        print("5. Çıxış")
+        print("4. Kitabi qaytar.")
+        print("5. Çixiş")
         
         choice = input("Seçiminizi daxil edin (1-5): ")
         
         if choice == '1':
-            title = input("Kitabın adını daxil edin: ")
-            author = input("Kitabın muellifini daxil edin: ")
+            title = input("Kitabin adini daxil edin: ")
+            author = input("Kitabin muellifini daxil edin: ")
             library.add_book(title, author)
         
         elif choice == '2':
             library.display_books()
         
         elif choice == '3':
-            title = input("Kiraye goturmek istediyiniz kitabın adını yazın: ")
+            title = input("Kiraye goturmek istediyiniz kitabin adini yazin: ")
             library.borrow_book(title)
         
         elif choice == '4':
-            title = input("Qaytarmaq istediyiniz kitabın adını yazın: ")
+            title = input("Qaytarmaq istediyiniz kitabin adini yazin: ")
             library.return_book(title)
         
         elif choice == '5':
@@ -84,7 +84,7 @@ class Library:
             break
         
         else:
-            print("Yanlış seçim. Zehmet olmasa 1-den 5-e qeder reqem daxil edin.")
+            print("Yanliş seçim. Zehmet olmasa 1-den 5-e qeder reqem daxil edin.")
 
 if __name__ == "__main__":
     main()
