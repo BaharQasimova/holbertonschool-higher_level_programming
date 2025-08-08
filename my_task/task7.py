@@ -4,7 +4,7 @@ class Heyvan:
         self.ad = ad
 
     def ses_cixar(self):
-        print(f"{self.ad} səssizdir.")
+        print(f"{self.ad} ses cixartir.")
 
 
 class Pisik(Heyvan):
@@ -17,7 +17,7 @@ class It(Heyvan):
         print(f"{self.ad} deyir: Hav hav!")
 
 if __name__ == "__main__":
-    pisik = Pisik("Pişik")
+    pisik = Pisik("Pisik")
     it = It("İt")
 
     pisik.ses_cixar()  
