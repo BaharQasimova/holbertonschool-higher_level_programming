@@ -22,6 +22,7 @@ class Library:
         if not self.books:
             print("Kitabxanada hele kitab yoxdur.")
             return
+Seçiminizi daxil edin (1-5): 
         print(f"\n{self.name} kitabxanadaki kitablar:")
         for book in self.books:
             print(book)
