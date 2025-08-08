@@ -6,21 +6,21 @@ class Insan:
         
 
     def yas_haqqinda(self):
-        print(f"{self.ad} {self.yas} yaşındadır.")
+        print(f"{self.ad} {self.yas}  yasindadir.")
 
 class Usaq(Insan):
     def yas_haqqinda(self):
         if self.yas < 18:
-            print(f"{self.ad} uşaqdır və yaşı {self.yas}-dir.")
+            print(f"{self.ad} artiq usaqdir ve yasi {self.yas}-dir.")
         else:
-            print(f"{self.ad} artıq uşaq deyil!")
+            print(f"{self.ad} artiq usaq deyil!")
 
 class Boyuk(Insan):
     def yas_haqqinda(self):
         if self.yas >= 18:
-            print(f"{self.ad} böyüktür və yaşı {self.yas}-dir.")
+            print(f"{self.ad} boyukdur ve yasi {self.yas}-dir.")
         else:
-            print(f"{self.ad} hələ böyüməyib!")
+            print(f"{self.ad} hele boyumeyib!")
             
 if __name__ == "__main__":
     usaqlar = Usaq("Bayram", 17)
