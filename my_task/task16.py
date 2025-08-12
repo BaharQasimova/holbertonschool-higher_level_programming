@@ -22,7 +22,7 @@ class BasketbolYarisi:
             self.qalib = komanda
         else:
             print("Qalib komandalar siyahisinda deyil")
-            
+
     def melumat_goster(self):
         print(f"\nBasketbol Yarisi: Yer: {self.yer}, Tarix: {self.tarix}")
         print("Iştirak edən komandalar:")
