@@ -12,5 +12,5 @@ def info():
     """
     return html_text
 
-if __name__ == '__main__':
-    app.run(debug=True, port=4004)
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0",port=4050)
