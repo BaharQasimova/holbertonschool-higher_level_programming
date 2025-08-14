@@ -21,4 +21,4 @@ def gonder():
         return "Zehmet olmasa, ad daxil edin."
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0",port=1450)
+    app.run(debug=True, host="0.0.0.0",port=145)
